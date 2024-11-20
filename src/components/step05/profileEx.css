@@ -1,0 +1,12 @@
+.center {
+    text-align: center;
+    margin: 20px auto;
+}
+
+button {
+    margin: 10px;
+}
+
+div {
+    border: 1px solid lightgray;
+}
