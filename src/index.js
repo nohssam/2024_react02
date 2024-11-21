@@ -19,6 +19,7 @@ import EffectTest04 from './components/step08/EffectTest04';
 import MemoTest01 from './components/step09/MemoTest01';
 import MemoTest02 from './components/step09/MemoTest02';
 import MemoTest03 from './components/step09/MemoTest03';
+import MemoTest04 from './components/step09/MemoTest04';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -41,7 +42,8 @@ root.render(
   // <EffectTest04 />
   // <MemoTest01 />
   // <MemoTest02 />
-  <MemoTest03 />
+  // <MemoTest03 />
+  <MemoTest04 />
 
 );
 reportWebVitals();
