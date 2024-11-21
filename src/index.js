@@ -16,6 +16,9 @@ import EffectTest01 from './components/step08/EffectTest01';
 import EffectTest02 from './components/step08/EffectTest02';
 import EffectTest03 from './components/step08/EffectTest03';
 import EffectTest04 from './components/step08/EffectTest04';
+import MemoTest01 from './components/step09/MemoTest01';
+import MemoTest02 from './components/step09/MemoTest02';
+import MemoTest03 from './components/step09/MemoTest03';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -35,10 +38,10 @@ root.render(
   // <EffectTest01 />
   // <EffectTest02 />
   // <EffectTest03 />
-  <EffectTest04 />
-);
+  // <EffectTest04 />
+  // <MemoTest01 />
+  // <MemoTest02 />
+  <MemoTest03 />
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
+);
 reportWebVitals();
