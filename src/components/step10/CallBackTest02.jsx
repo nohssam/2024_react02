@@ -18,8 +18,17 @@ function CallBackTest02(props) {
     //     return;
     // }, []);
 
+    //  const someFunction = useCallback(() => {
+    //     //     console.log(`someFunc : number : ${number}`);
+    //     //     return;
+    //     // }, [number]);
 
-    const someFunction = useCallback(() => {
+    // const someFunction = useCallback((number) => {
+    //     console.log(`someFunc : number : ${number}`);
+    //     return;
+    // }, []);
+
+    const someFunction = useCallback((number) => {
         console.log(`someFunc : number : ${number}`);
         return;
     }, [number]);
@@ -36,7 +45,8 @@ function CallBackTest02(props) {
                 onChange={(e) => setNumber(e.target.value)}
             />
             <br />
-            <button onClick={someFunction}>someFunction 함수 호출</button>
+            <button onClick={() => someFunction()}>someFunction 함수 호출</button>
+            <button onClick={() => someFunction(number)}>someFunction 함수 호출</button>
         </div>
     );
 }
