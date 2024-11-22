@@ -60,7 +60,7 @@ root.render(
   // <RefTest03 />
   // <RefTest04 />
   // <RefTest05 />
-  // <UseIdTest2 />
-  <UseIdTest />
+  // <UseIdTest />
+  <UseIdTest2 />
 );
 reportWebVitals();
