@@ -29,6 +29,8 @@ import RefTest04 from './components/step11/RefTest04';
 import RefTest05 from './components/step11/RefTest05';
 import UseIdTest from './components/step12/UseIdTest';
 import UseIdTest2 from './components/step12/UseIdTest2';
+// import ContextTest from './components/step13/ContextTest';
+import ContextTest from './components/step14/ContextTest';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -61,6 +63,8 @@ root.render(
   // <RefTest04 />
   // <RefTest05 />
   // <UseIdTest />
-  <UseIdTest2 />
+  // <UseIdTest2 />
+  // <ContextTest />
+  <ContextTest />
 );
 reportWebVitals();
